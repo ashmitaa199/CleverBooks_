@@ -31,10 +31,7 @@ const Testimonial = () => {
                 <img src={data.logo} className='w-24 h-24' alt="" />
             </div>
             <div className=' flex justify-center items-center  space-x-6'>
-                     {/* <p onClick={()=>handleLeft()}>left</p>
-                     <p onClick={()=>handleRight()}>right</p> */}
-                     {/* <CircleChevronLeft onClick={()=>handleLeft()} className='w-6 h-6  cursor-pointer'/>
-                     <CircleChevronRight onClick={()=>handleRight()} className='w-6 h-6  cursor-pointer'/> */}
+                    
                      <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt=""  className='rotate-180 cursor-pointer' onClick={()=>handleLeft()}/>
                      <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d5122ea3ebb_slider-arrow.svg" alt=""
                      className='cursor-pointer'  onClick={()=>handleRight()}/>

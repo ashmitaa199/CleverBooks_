@@ -15,10 +15,10 @@ export function ProblemSection() {
       <CarouselContent>
         {ProblemData.map(({mainImg,mainHead,content,index}) => (
           <CarouselItem key={index}>
-            <div className="p-7 min-h-[90%]">
+            <div className="w-full min-h-[90%]">
               <Card className="min-h-full">
                 <CardContent className="flex justify-center items-center min-h-full">
-                 <div className="flex-col flex lg:flex-row px-5 py-5 gap-6 min-h-full">
+                 <div className="flex-col flex lg:flex-row px-0 py-5 gap-5 min-h-full">
                     <div>
                         <img src={mainImg} alt="" className="min-h-[350px] h-full"/>
                     </div>

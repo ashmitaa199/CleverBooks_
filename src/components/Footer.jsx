@@ -2,8 +2,8 @@ import React from "react";
 function Footer(){
     return(
         <div className="flex flex-col w-full justify-center items-center bg-black mt-6">
-            <div className="w-full px-24 py-10 pt-20 ">
-                <div className=" bg-gradient-to-r from-[salmon] to-[purple] flex flex-col justify-center items-center text-center rounded-2xl py-5 gap-10 text-white background-animate">
+            <div className="w-full px-10 py-14 ">
+                <div className=" h-[440px] bg-gradient-to-r from-[#eb8176] to-[#c579c5] flex flex-col justify-center items-center text-center rounded-2xl py-5 gap-10 text-white background-animate">
                     <h1 className="text-5xl font-semibold font-customFont">You can grow faster than you think!</h1>
                     <div className="flex max-w-[50%] items-center justify-center">
                     <p className="text-sm font-customFont">Plan with Crest to fulfil your demand today, and dreams tomorrow. We bring the methods and technologies of large global companies to help brands of all sizes scale.</p>
